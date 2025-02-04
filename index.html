@@ -11,12 +11,12 @@
 </head>
 <body>
     <header>
-        <nav class="w-full flex size-10  gap-x-20 r bg-orange-50 space-x-10">
+        <nav class="w-full flex size-10 lg:justify-center gap-x-20 r bg-orange-50 space-x-10">
             <div class="ml-7"> Browse pet</div> <br>
             <ul class="flex space-x-20 text-center">
-                <li>Find a pet</li>
-                <li>Breeds</li>
-                <li>Contact us</li>
+                <li><a href="">Find a pet</a></li>
+                <li><a href="">Breeds</a></li>
+                <li><a href="">Contact us</a></li>
 
         </ul>
        <div class="mr-1"><input type="Log in" name="" id=""><button class="border-yellow-100">Log in</button></div>
@@ -25,29 +25,90 @@
        </button></div>
 
         </nav>
-        <div class="pl-20  pt-5">
+        <div class="pl-20 relative  bg-white flex flex-col md:flex-row pt-5">
           <!-- head -->
-          <div class="pl-20  pt-5">
+          <div class="pl-20  pt-5" bg-[url()]>
             <h4 class="font-bold  mt-5 text-2xl">Pamper Your Pet,<br> Because They Deserve <br> the Bes</h4>
             <p>Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
             <button class="bg-yellow-200 w-25 text-center rounded mt-5">Find a pet</button>
+           
           </div>
           <!-- img -->
-           <div class="relative">
-            <img  class="pl-20 pr-10 w-250 absolute pt-1 "  src="./c1-assets/cat-big.png" alt="">
-           
-           </div>
-          
-    </header>
-  <main >
-    <section>
-      
-      </div>
-    </section>
-    <div>
-       
-    </div>
-  </main>
+          <div class="md:w-1/2"> 
+            <img src="./c1-assets/cat-big.png" class="w-full h-full object-cover" alt="">
+          </div>
+    </header>       
 
+    <section class="bg-gray-100  flex justify-center min-h-screen  items-center ">
+      <div class="container gap-10 mx-auto px-5 ">
+        <!-- title -->
+         <h2 class="text-2xl md:text-3xl pl-20 pr-20 font-bold text text-left ">Browse By Catagories</h2>
+        <!-- grid  -->
+        <div class=" grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 justify-center"></div>
+        <!-- card -->
+        <div class="bg-yellow-100 p-4 rounded-lg flex flex-col  items-center w-50 shadow-md">
+
+          <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center">
+            <img src="./c1-assets/cute-pet-small.png" alt="">
+
+
+          </div>
+          <h3 class="mt-3 text-lg font-bold text-gray-700 "> Dog </h3>
+          <p class="text-gray-600 text-sm">3 items</p>
+        </div>
+        <div class="bg-yellow-300   w-50 p-4 rounded-lg flex flex-col items-center shadow-md">
+
+          <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center">
+            <img src="./c1-assets/fish-cartoon.png" alt="">
+
+
+          </div>
+          <h3 class="mt-3 text-lg font-bold text-gray-700 "> Dog </h3>
+          <p class="text-gray-600 text-sm">3 items</p>
+        </div>
+        <div class="bg-yellow-300 w-50  p-4 rounded-lg flex flex-col items-center shadow-md">
+
+          <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center">
+            <img src="./c1-assets/cat-cartoon.png" alt="">
+
+
+          </div>
+          <h3 class="mt-3 text-lg font-bold text-gray-700 "> Dog </h3>
+          <p class="text-gray-600 text-sm">3 items</p>
+        </div>
+        <div class="bg-yellow-300 w-50  p-4 rounded-lg flex flex-col lg:flex items-center shadow-md">
+
+          <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center">
+            <img src="./c1-assets/bird-cartoon.png" alt="">
+
+
+          </div>
+          <h3 class="mt-3 text-lg font-bold text-gray-700 "> Dog </h3>
+          <p class="text-gray-600 text-sm">3 items</p>
+        </div>
+        <div class="bg-yellow-300  w-50 p-4 rounded-lg flex flex-col items-center shadow-md">
+
+          <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center">
+            <img src="./c1-assets/cute-pet-small.png" alt="">
+
+
+          </div>
+          <h3 class="mt-3 text-lg font-bold text-gray-700 "> Dog </h3>
+          <p class="text-gray-600 text-sm">3 items</p>
+        </div>
+        <div class="bg-yellow-300 p-4 w-50   rounded-lg flex flex-col items-center shadow-md">
+
+          <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center">
+            <img src="./c1-assets/rabbit-cartoon.png" alt="">
+
+
+          </div>
+          <h3 class="mt-3 text-lg font-bold text-gray-700 "> Dog </h3>
+          <p class="text-gray-600 text-sm">3 items</p>
+        </div>
+
+      </div>
+
+    </section>
 </body>
 </html>
